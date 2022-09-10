@@ -14,10 +14,10 @@ export class Satellite {
 		this.operational = operational;
    }
 	
-	isSpaceDebris(): boolean {
+	isSpaceDebris(): boolean {return this.type.toUpperCase() === "SPACE DEBRIS";
 		return true;
    }
 
 }
 
-// TODO 3a: fix isSpaceDebris check
+ 
